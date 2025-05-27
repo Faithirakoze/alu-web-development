@@ -3,6 +3,18 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    background-color: #f0f0f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffa500;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 4px solid #007BFF;
 }
 
 main {
@@ -11,12 +23,31 @@ main {
     flex: auto;
     gap: 1rem;
     padding: 1rem;
+    background-color: white;
 }
 
 article {
     flex: 2;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 8px;
 }
 
 aside {
     flex: 1;
+    overflow-y: auto;
+    background-color: #e9ecef;
+    padding: 1rem;
+    border-left: 3px solid #007BFF;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #3cb371;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
 }
